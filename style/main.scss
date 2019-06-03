@@ -1,0 +1,19 @@
+// impoprt page styles
+@import 'partials//pages/homepage.scss';
+@import 'partials//pages/map.scss';
+// import partial styles
+@import 'partials/__navbar.scss';
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.radius-block {
+    border-radius: 4%;
+    -webkit-box-shadow: 3px 5px 15px 5px #B6B6B6;
+    box-shadow: 3px 5px 15px 5px #B6B6B6;
+}

@@ -1,0 +1,38 @@
+.hero-wrapper {
+    padding: 0;
+    margin: 0;
+    background-image: url('../../../images/hero-bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 60% 90%;
+    min-height: 60vh;
+    h1 {
+        position: relative;
+        top: 500%;
+        color: white;
+    }
+}
+
+.articles-wrapper {
+    margin-top: 50px;
+    article {
+        background-color: rgb(240, 240, 240);
+        margin: 40px 0;
+        overflow: hidden;
+        .article-title {
+            padding: 10px;
+        }
+        .article-img {
+            overflow: hidden;
+            height: 300px;
+            img {
+                height: 100%;
+                position: relative;
+                left: -95px;
+            }
+        }
+        .article-content {
+            padding: 30px;
+        }
+    }
+}
