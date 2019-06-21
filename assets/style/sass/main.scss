@@ -1,0 +1,13 @@
+// import partial styles
+@import 'partials/__navbar.scss';
+// impoprt page styles
+@import 'pages/_homepage.scss';
+@import 'pages/_map.scss';
+body {
+    padding: 0;
+    margin: 0;
+}
+
+xs .hidden {
+    display: none;
+}

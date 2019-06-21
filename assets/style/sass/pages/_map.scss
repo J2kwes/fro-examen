@@ -1,0 +1,46 @@
+.wrapper {
+    /* height: 300vh; */
+    overflow: hidden;
+}
+
+#container {
+    min-height: 100vh;
+    background-image: url('../../../images/map.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#container2 {
+    min-height: 100vh;
+    background-image: url('../../../images/map2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#container.animated {
+    animation: fade-in 1.2s ease;
+}
+
+.highlighter {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: rgba(220, 20, 60, 0.65);
+    position: absolute;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-out {
+    from {}
+    to {
+        opacity: 0;
+    }
+}
