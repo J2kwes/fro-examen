@@ -41,13 +41,13 @@ $(document).ready(function() {
         lFollowY = 0,
         x = 0,
         y = 0,
-        friction = 1 / 30;
+        friction = 1 / 50;
 
     function moveBackground() {
         x += (lFollowX - x) * friction;
         y += (lFollowY - y) * friction;
 
-        translate = 'translate(' + x + 'px, ' + y + 'px)';
+        translate = 'translate(' + x + 'px, ' + y + 'px) scale(1.1)';
 
         $('.layer2').css({
             '-webit-transform': translate,
