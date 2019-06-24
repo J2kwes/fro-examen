@@ -1,5 +1,5 @@
 .navbar {
-  background-color: black; }
+  background-color: white; }
   .navbar .nav-link,
   .navbar .navbar-brand {
     cursor: pointer; }
@@ -12,6 +12,9 @@
   .navbar .navbar-collapse {
     justify-content: flex-end; }
 
+html {
+  overflow: hidden; }
+
 .hero-wrapper {
   background: black;
   background-attachment: fixed;
@@ -19,7 +22,7 @@
   background-repeat: no-repeat;
   padding: 0;
   margin: 0;
-  height: 80vh;
+  height: 100vh;
   position: relative;
   overflow: hidden;
   color: white; }
@@ -30,29 +33,30 @@
     height: 100%;
     background-repeat: no-repeat;
     background-position: 15%; }
-  .hero-wrapper .c1 {
-    height: 100%; }
-    .hero-wrapper .c1 .row {
-      display: flex;
-      text-align: right;
-      justify-items: center;
-      height: 40vh; }
+  .hero-wrapper .info {
+    position: absolute;
+    top: 50%;
+    margin-top: -15%;
+    right: 0; }
+    .hero-wrapper .info #scroll1 {
+      border: 2px solid white;
+      padding: 10px 20px;
+      width: 70%;
+      background-size: 100% 200%;
+      background-image: linear-gradient(to bottom, black 50%, white 50%);
+      transition: background-position 1.5s; }
+      .hero-wrapper .info #scroll1:hover {
+        background-position: 0 -100%;
+        color: black; }
 
-.wrapper-one .c1-1 .info {
-  margin: 40px 0;
-  align-items: center;
-  justify-content: center;
-  display: flex; }
-  .wrapper-one .c1-1 .info .col-md-3 {
-    margin: 20px;
-    border-radius: 10px;
-    -webkit-box-shadow: 9px 7px 15px 0px rgba(0, 0, 0, 0.15);
-    -moz-box-shadow: 9px 7px 15px 0px rgba(0, 0, 0, 0.15);
-    box-shadow: 9px 7px 15px 0px rgba(0, 0, 0, 0.15); }
-    .wrapper-one .c1-1 .info .col-md-3 .block {
-      padding: 20px; }
+.wrapper-one .c1-1 {
+  position: -webkit-sticky;
+  /* Safari */
+  position: sticky;
+  top: 0;
+  height: 0; }
 .wrapper-one .c1-2 {
-  background-image: url("../../images/map.png"); }
+  background-image: url("../../images/map-jun-6.png"); }
 
 .wrapper-two .c2-2 {
   background-image: url("../../images/map-jun-11.png"); }
@@ -60,8 +64,14 @@
 .wrapper-three .c3-2 {
   background-image: url("../../images/map-jun-30.png"); }
 
+.wrapper-four .c4-2 {
+  background-image: url("../../images/map-jul-27.png"); }
+
+.wrapper-five .c5-2 {
+  background-image: url("../../images/map-jul-31.png"); }
+
 .map {
-  height: 200vh;
+  height: 100vh;
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat; }
@@ -73,15 +83,15 @@
 /*animation element sliding left*/
 .animation-element.slide-left {
   opacity: 0;
-  -moz-transition: all 1s linear;
-  -webkit-transition: all 1s linear;
-  -o-transition: all 1s linear;
-  transition: all 1s linear;
-  -moz-transform: translate3d(-100px, 0px, 0px);
-  -webkit-transform: translate3d(-100px, 0px, 0px);
-  -o-transform: translate(-100px, 0px);
-  -ms-transform: translate(-100px, 0px);
-  transform: translate3d(-100px, 0px, 0px); }
+  -moz-transition: all .5s linear;
+  -webkit-transition: all .5s linear;
+  -o-transition: all .5s linear;
+  transition: all .5s linear;
+  -moz-transform: translate3d(150px, 0px, 0px);
+  -webkit-transform: translate3d(150px, 0px, 0px);
+  -o-transform: translate(150px, 0px);
+  -ms-transform: translate(150px, 0px);
+  transform: translate3d(150px, 0px, 0px); }
 
 .animation-element.slide-left.in-view {
   opacity: 1;

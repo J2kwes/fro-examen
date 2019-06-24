@@ -1,16 +1,19 @@
 <?php include 'page-partials/head.php'; ?>
 
 <body>
+<div id="scrolltop"></div>
     <?php include 'page-partials/navbar.php'; ?>
 
     <div class="hero-wrapper">
         <div class="container layer2">
             <div class="row">
                 <div class="col-md-6"> </div>
-
-                <div class="col-md-6">
-                    <h1>TIJDLIJN</h1>
-                    <h2 id="scroll">scroll</h2>
+                <div class="col-md-6 info animation-element slide-left">
+                    <h1>De invasie van Normandie in kaart gebracht</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam architecto sunt dolor perferendis delectus suscipit. Vel cumque repellendus iusto velit modi doloribus, nisi accusamus voluptatum facilis voluptates fuga ducimus reprehenderit.</p>
+                    <h2 id="scroll1" class="text-center">
+                        Begin de invasie
+                    </h2>
                 </div>
             </div>
         </div>
@@ -23,37 +26,17 @@
         </div>
     </div>
 
-    <div class="wrapper-one">
+    <div class="wrapper-one" id="scroll-to1">
         <div class="container-fluid c1-1">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <h1>6 juni </h1>
-                </div>
-                <div class="col-md-12 text-center">
-                    <h2>operatie overlord begint</h2>
-
-                </div>
+            <div class="row description">
+                    <div class="col-md-12 text-center">
+                        <h1 id="date">6 juni </h1>
+                    </div>
+                    <div class="col-md-12 text-center">
+                        <h2 id="event">operatie overlord begint</h2>
+                        <h2 id="scroll2">scroll</h2>
+                    </div>
             </div>
-            <!-- <div class="row info text-center align-self-center">
-                <div class="col-md-3">
-                    <div class="block">
-                        <h3>lorem ipsum</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error impedit cupiditate magni facilis obcaecati, esse ullam. Placeat voluptates dolor, porro possimus quis ratione ullam. Dolorum quo cupiditate modi unde sapiente.</p>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="block">
-                        <h3>lorem ipsum</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error impedit cupiditate magni facilis obcaecati, esse ullam. Placeat voluptates dolor, porro possimus quis ratione ullam. Dolorum quo cupiditate modi unde sapiente.</p>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="block">
-                        <h3>lorem ipsum</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error impedit cupiditate magni facilis obcaecati, esse ullam. Placeat voluptates dolor, porro possimus quis ratione ullam. Dolorum quo cupiditate modi unde sapiente.</p>
-                    </div>
-                </div>
-            </div> -->
         </div>
         <div class="container-fluid c1-2 map">
             <div class="row">
@@ -62,39 +45,58 @@
                 </div>
             </div>
         </div>
-
-        <div class="wrapper-two">
+        <div class="wrapper-two" id="scroll-to2">
             <div class="container c2-1">
                 <div class="row">
-                    <!-- <div class="col-md-12 text-center">
-                        <h1>11 juni </h1>
-                    </div>
-                    <div class="col-md-12 text-center">
-                        <h2>De slag om carentan</h2>
-                    </div> -->
+                 
                 </div>
             </div>
             <div class="container-fluid c2-2 map">
                 <div class="row">
                     <div class="col-md-12 text-center">
-                        <h1 class="animation-element slide-left">hallo</h1>
+                        <!-- <h1 class="animation-element slide-left">hallo</h1> -->
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="wrapper-three">
+        <div class="wrapper-three" id="scroll-to3">
             <div class="container c3-1">
                 <div class="row">
-                    <!-- <div class="col-md-12 text-center">
-                        <h1>11 juni </h1>
-                    </div>
-                    <div class="col-md-12 text-center">
-                        <h2>De haven stad cherbourg is volleig ingenomen</h2>
-                    </div> -->
+                   
                 </div>
             </div>
             <div class="container-fluid c3-2 map">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrapper-four" id="scroll-to4">
+            <div class="container c4-1">
+                <div class="row">
+                   
+                </div>
+            </div>
+            <div class="container-fluid c4-2 map">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrapper-five" id="scroll-to5">
+            <div class="container c5-1">
+                <div class="row">
+                   
+                </div>
+            </div>
+            <div class="container-fluid c5-2 map">
                 <div class="row">
                     <div class="col-md-12 text-center">
 
