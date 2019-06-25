@@ -34,7 +34,7 @@ $(document).ready(function() {
                                         scrollTop: $("#scroll-to5").offset().top
                                     }, 2000);
                                 }, time);
-                            }, 7000);
+                            }, 5000);
                         }, time);
                     }, time);
                 }, time);

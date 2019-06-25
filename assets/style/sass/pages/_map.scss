@@ -1,101 +1,96 @@
-html {
-    overflow: hidden;
-}
-
-.hero-wrapper {
-    background: black;
-    background-attachment: fixed;
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 0;
-    margin: 0;
-    height: 100vh;
-    position: relative;
-    overflow: hidden;
-    color: white;
-    .layer2 {
-        background-image: url("../../images/bob-bg.png");
-        background-attachment: fixed;
-        background-size: cover;
-        height: 100%;
-        // position: absolute;
-        background-repeat: no-repeat;
-        background-position: 15%;
+.map-page {
+    html {
+        overflow: hidden;
     }
-    .info {
-        position: absolute;
-        top: 50%;
-        margin-top: -15%;
-        right: 0;
-        #scroll1 {
-            border: 2px solid white;
-            padding: 10px 20px;
-            width: 70%;
-            background-size: 100% 200%;
-            background-image: linear-gradient(to bottom, black 50%, white 50%);
-            transition: background-position 1.5s;
-            &:hover {
-                background-position: 0 -100%;
-                color: black;
+    .hero-wrapper {
+        background: black;
+        background-attachment: fixed;
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 0;
+        margin: 0;
+        height: 100vh;
+        position: relative;
+        overflow: hidden;
+        color: white;
+        .layer2 {
+            background-image: url("../../images/bob-bg.png");
+            background-attachment: fixed;
+            background-size: cover;
+            height: 100%;
+            // position: absolute;
+            background-repeat: no-repeat;
+            background-position: 15%;
+        }
+        .info {
+            position: absolute;
+            top: 50%;
+            margin-top: -15%;
+            right: 0;
+            #scroll1 {
+                border: 2px solid white;
+                padding: 10px 20px;
+                width: 70%;
+                background-size: 100% 200%;
+                background-image: linear-gradient(to bottom, black 50%, white 50%);
+                transition: background-position 1.5s;
+                &:hover {
+                    background-position: 0 -100%;
+                    color: black;
+                }
             }
         }
     }
-}
-
-.wrapper-one {
-    .c1-1 {
-        position: -webkit-sticky;
-        /* Safari */
-        position: sticky;
-        top: 0;
-        height: 0;
+    .wrapper-one {
+        .c1-1 {
+            position: -webkit-sticky;
+            /* Safari */
+            position: sticky;
+            top: 0;
+            height: 0;
+        }
+        .c1-2 {
+            background-image: url('../../images/map-jun-6.png');
+        }
     }
-    .c1-2 {
-        background-image: url('../../images/map-jun-6.png');
+    .wrapper-two {
+        .c2-1 {
+            // height: 20vh;
+        }
+        .c2-2 {
+            background-image: url('../../images/map-jun-11.png');
+        }
     }
-}
-
-.wrapper-two {
-    .c2-1 {
-        // height: 20vh;
+    .wrapper-three {
+        .c3-1 {
+            // height: 20vh;
+        }
+        .c3-2 {
+            background-image: url('../../images/map-jun-30.png');
+        }
     }
-    .c2-2 {
-        background-image: url('../../images/map-jun-11.png');
+    .wrapper-four {
+        .c4-1 {
+            // height: 20vh;
+        }
+        .c4-2 {
+            background-image: url('../../images/map-jul-27.png');
+        }
     }
-}
-
-.wrapper-three {
-    .c3-1 {
-        // height: 20vh;
+    .wrapper-five {
+        .c5-1 {
+            // height: 20vh;
+        }
+        .c5-2 {
+            background-image: url('../../images/map-jul-31.png');
+        }
     }
-    .c3-2 {
-        background-image: url('../../images/map-jun-30.png');
+    .map {
+        height: 100vh;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
     }
-}
-
-.wrapper-four {
-    .c4-1 {
-        // height: 20vh;
-    }
-    .c4-2 {
-        background-image: url('../../images/map-jul-27.png');
-    }
-}
-
-.wrapper-five {
-    .c5-1 {
-        // height: 20vh;
-    }
-    .c5-2 {
-        background-image: url('../../images/map-jul-31.png');
-    }
-}
-
-.map {
-    height: 100vh;
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
 }
 
 // @media only screen and (max-width: 600px) {
