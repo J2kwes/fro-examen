@@ -169,6 +169,9 @@
   overflow: hidden;
   background-color: #f7f7f7; }
 
+.map-page-mob {
+  display: none; }
+
 .map-page {
   display: block; }
   .map-page .hero-wrapper {
@@ -194,16 +197,20 @@
       top: 50%;
       margin-top: -15%;
       right: 0; }
-      .map-page .hero-wrapper .info #scroll1 {
+      .map-page .hero-wrapper .info #scroll1,
+      .map-page .hero-wrapper .info #to-home {
         border: 2px solid white;
         padding: 10px 20px;
         width: 70%;
         background-size: 100% 200%;
         background-image: linear-gradient(to bottom, black 50%, white 50%);
         transition: background-position 1.5s; }
-        .map-page .hero-wrapper .info #scroll1:hover {
+        .map-page .hero-wrapper .info #scroll1:hover,
+        .map-page .hero-wrapper .info #to-home:hover {
           background-position: 0 -100%;
           color: black; }
+      .map-page .hero-wrapper .info #to-home {
+        display: none; }
   .map-page .wrapper-one .c1-1 {
     position: -webkit-sticky;
     /* Safari */
@@ -236,6 +243,8 @@
     background-image: url("../../images/map-jul-27.png"); }
   .map-page .wrapper-five .c5-2 {
     background-image: url("../../images/map-jul-31.png"); }
+  .map-page .wrapper-six .c6-2 {
+    background-image: url("../../images/map-19-aug.png"); }
   .map-page .map {
     height: 150vh;
     background-size: cover;
@@ -243,8 +252,45 @@
     background-repeat: no-repeat; }
 
 @media only screen and (max-width: 1300px) {
+  .map-body {
+    overflow: scroll; }
+
   .map-page {
-    display: none; } }
+    display: none; }
+
+  .map-page-mob {
+    display: block; }
+    .map-page-mob .card {
+      border-radius: 0;
+      overflow: hidden;
+      text-align: center;
+      max-width: 400px;
+      -webkit-box-shadow: 0px 11px 21px -2px rgba(0, 0, 0, 0.3);
+      -moz-box-shadow: 0px 11px 21px -2px rgba(0, 0, 0, 0.3);
+      box-shadow: 0px 11px 21px -2px rgba(0, 0, 0, 0.3); }
+      .map-page-mob .card:hover .card-content {
+        transform: scale(1.05);
+        transition: all 0.5s; }
+      .map-page-mob .card hr {
+        border-top: 2px solid red;
+        width: 50%;
+        margin-left: 25% !important;
+        margin-right: 25% !important; }
+      .map-page-mob .card .card-image {
+        height: 200px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center; }
+      .map-page-mob .card .ci1 {
+        background-image: url("../../images/map-jun-6.png"); }
+      .map-page-mob .card .ci2 {
+        background-image: url("../../images/map-jun-11.png"); }
+      .map-page-mob .card .ci3 {
+        background-image: url("../../images/map-jun-30.png"); }
+      .map-page-mob .card .ci4 {
+        background-image: url("../../images/map-jul-27.png"); }
+      .map-page-mob .card .ci5 {
+        background-image: url("../../images/map-jul-31.png"); } }
 .animation-element {
   opacity: 0;
   position: relative; }
