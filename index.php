@@ -19,7 +19,7 @@
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="card tickets-card">
-                            <div class="card-image ci2"></div>
+                            <div class="card-image ci1"></div>
                             <div class="card-content">
                                 <h2 class="card-title">Koop Kaarten</h2>
                                 <hr>
@@ -29,7 +29,7 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="card contact-card">
-                            <div class="card-image ci1"></div>
+                            <div class="card-image ci2"></div>
                             <div class="card-content">
                                 <h2 class="card-title">Contact</h2>
                                 <hr>

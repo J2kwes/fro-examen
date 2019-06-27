@@ -33,9 +33,16 @@
             input[type=submit] {
                 width: 80%;
                 margin-left: 20%;
+                padding: 10px;
                 border: none;
                 border-bottom: 2px solid white;
                 background-color: white;
+                vertical-align: middle;
+                &:hover {
+                    background-color: lightgrey;
+                    border: 2px solid white;
+                    transition: all .3s;
+                }
             }
         }
     }

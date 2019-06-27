@@ -35,11 +35,8 @@
                             <h1 id="date">6 juni </h1>
                             <hr>
                             <h4 id="event">Operatie overlord begint. Een enorme invasie vloot van amerikanen, britten, canadezen en fransen landen op de stranden van Normadie en openen succesvol een tweede front op Nazi-Duistland</h4>
-
                         </div>
-
                     </div>
-
                 </div>
             </div>
             <div class="container-fluid c1-2 map">
@@ -109,7 +106,27 @@
                 </div>
             </div>
         </div>
-        <?php include 'page-partials/footer.php'; ?>
+    </div>
+
+    <div class="map-page-mob">
+        <div class="wrapper-hero-mob">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card contact-card">
+                            <div class="card-image ci1"></div>
+                            <div class="card-content">
+                                <h2 class="card-title">Contact</h2>
+                                <hr>
+                                <p class="card-desc">Heeft u nog vragen voor ons? Geen probleem! Klik hier en stel uw vraag via ons contact formulier. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <?php include 'page-partials/footer.php'; ?>
 </body>
 
 </html>
