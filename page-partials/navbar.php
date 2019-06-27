@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-md">
-    <a class="navbar-brand" href="#"></a>
+    <div class="navbar-brand" > <h5>NATIONAAL OORLOGS MUSEUM</h5></div>
     <div id="main-navigation">
         <ul class="navbar-nav">
             <li class="nav-item">
@@ -9,7 +9,7 @@
                 <a class="nav-link" href="map.php">Normandie</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="tickets.php">Kaarten</a>
             </li>
         </ul>
     </div>

@@ -39,6 +39,7 @@
                 background-color: white;
                 vertical-align: middle;
                 &:hover {
+                    cursor: pointer;
                     background-color: lightgrey;
                     border: 2px solid white;
                     transition: all .3s;

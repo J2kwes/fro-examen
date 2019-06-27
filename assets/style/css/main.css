@@ -11,25 +11,41 @@
     color: #000;
     font-size: 20px; }
   .navbar .nav-link:hover {
-    color: #000; }
+    color: #000;
+    cursor: pointer; }
   .navbar #main-navigation {
     justify-content: flex-end; }
+  .navbar .navbar-nav {
+    position: absolute;
+    right: 10px;
+    margin-top: -20px; }
 
 .mob-menu {
   display: none;
+  margin-top: 18vh;
   padding: 20px;
-  background-color: #F7F7F7; }
+  background-color: #F7F7F7;
+  -webkit-box-shadow: 3px 10px 53px -22px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 10px 53px -22px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 10px 53px -22px rgba(0, 0, 0, 0.75); }
+
+.mob-menu-toggle {
+  cursor: pointer; }
 
 .opened {
   display: none; }
 
 .closebtn {
-  display: none; }
+  display: none;
+  cursor: pointer; }
 
 @media only screen and (max-width: 700px) {
   .navbar {
     margin-top: -20vh;
     background-color: white; }
+
+  .navbar-brand {
+    display: none; }
 
   .mob-menu {
     display: block; } }
@@ -70,6 +86,7 @@
       background-color: white;
       vertical-align: middle; }
       .wrapper-contact .container input[type=submit]:hover {
+        cursor: pointer;
         background-color: lightgrey;
         border: 2px solid white;
         transition: all .3s; }
@@ -113,9 +130,11 @@
       -webkit-box-shadow: 0px 11px 21px -2px rgba(0, 0, 0, 0.3);
       -moz-box-shadow: 0px 11px 21px -2px rgba(0, 0, 0, 0.3);
       box-shadow: 0px 11px 21px -2px rgba(0, 0, 0, 0.3); }
-      .home-page .wrapper-two .c2 .row .card:hover .card-content {
-        transform: scale(1.05);
-        transition: all 0.5s; }
+      .home-page .wrapper-two .c2 .row .card:hover {
+        cursor: pointer; }
+        .home-page .wrapper-two .c2 .row .card:hover .card-content {
+          transform: scale(1.05);
+          transition: all 0.5s; }
       .home-page .wrapper-two .c2 .row .card hr {
         border-top: 2px solid red;
         width: 50%;
@@ -208,7 +227,8 @@
         .map-page .hero-wrapper .info #scroll1:hover,
         .map-page .hero-wrapper .info #to-home:hover {
           background-position: 0 -100%;
-          color: black; }
+          color: black;
+          cursor: pointer; }
       .map-page .hero-wrapper .info #to-home {
         display: none; }
   .map-page .wrapper-one .c1-1 {
@@ -259,8 +279,15 @@
     display: none; }
 
   .map-page-mob {
-    display: block; }
+    display: block;
+    background-color: black;
+    color: white; }
+    .map-page-mob .row {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
     .map-page-mob .card {
+      color: black;
       border-radius: 0;
       overflow: hidden;
       text-align: center;
@@ -290,7 +317,9 @@
       .map-page-mob .card .ci4 {
         background-image: url("../../images/map-jul-27.png"); }
       .map-page-mob .card .ci5 {
-        background-image: url("../../images/map-jul-31.png"); } }
+        background-image: url("../../images/map-jul-31.png"); }
+      .map-page-mob .card .ci6 {
+        background-image: url("../../images/map-19-aug.png"); } }
 .animation-element {
   opacity: 0;
   position: relative; }
@@ -315,6 +344,57 @@
   -o-transform: translate(0px, 0px);
   -ms-transform: translate(0px, 0px);
   transform: translate3d(0px, 0px, 0px); }
+
+.tickets-page .wrapper-hero {
+  padding-top: 10vh;
+  min-height: 100vh;
+  background-image: url("../../images/ticketsbg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .tickets-page .wrapper-hero .row {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .tickets-page .wrapper-hero .row .col-md-4 {
+      height: 400px; }
+  .tickets-page .wrapper-hero .card {
+    border-radius: 10px;
+    overflow: hidden;
+    height: 400px;
+    margin-top: 0;
+    text-align: center;
+    -webkit-box-shadow: 0px 11px 21px -2px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 11px 21px -2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 11px 21px -2px rgba(0, 0, 0, 0.3); }
+    .tickets-page .wrapper-hero .card:hover {
+      cursor: pointer; }
+      .tickets-page .wrapper-hero .card:hover .card-content {
+        transform: scale(1.05);
+        transition: all 0.5s; }
+    .tickets-page .wrapper-hero .card hr {
+      border-top: 2px solid red;
+      width: 50%;
+      margin-left: 25% !important;
+      margin-right: 25% !important; }
+    .tickets-page .wrapper-hero .card .card-image {
+      height: 200px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center; }
+    .tickets-page .wrapper-hero .card .ci1,
+    .tickets-page .wrapper-hero .card .ci2,
+    .tickets-page .wrapper-hero .card .ci3 {
+      background-image: url("../../images/ticket.jpg");
+      background-size: contain !important; }
+    .tickets-page .wrapper-hero .card .card-content {
+      padding: 15px;
+      -webkit-box-shadow: 1px -5px 60px 1px rgba(0, 0, 0, 0.3);
+      -moz-box-shadow: 1px -5px 60px 1px rgba(0, 0, 0, 0.3);
+      box-shadow: 1px -5px 60px 1px rgba(0, 0, 0, 0.3);
+      transition: all 0.5s; }
+    .tickets-page .wrapper-hero .card button {
+      border: 2px solid black;
+      background-color: white; }
 
 body {
   padding: 0;

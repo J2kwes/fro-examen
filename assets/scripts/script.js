@@ -75,11 +75,11 @@ $('.contact-card').click(function() {
 });
 
 $('.tickets-card').click(function() {
-    window.location.href = "/tickets.php";
+    window.location.href = "tickets.php";
 });
 
 $('.normandy-card').click(function() {
-    window.location.href = "/map.php";
+    window.location.href = "map.php";
 });
 
 

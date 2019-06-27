@@ -1,17 +1,17 @@
 <?php include 'page-partials/head.php'; ?>
 
-<body class="map-body">
+<body class="map-body" id="scroll-to-top">
     <div id="scrolltop"></div>
     <?php include 'page-partials/navbar.php'; ?>
 
     <div class="map-page">
-        <div class="hero-wrapper" id="scroll-to-top">
+        <div class="hero-wrapper">
             <div class="container layer2">
                 <div class="row">
                     <div class="col-md-6"> </div>
                     <div class="col-md-6 info animation-element slide-left">
                         <h1>De invasie van Normandie in kaart gebracht</h1>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam architecto sunt dolor perferendis delectus suscipit. Vel cumque repellendus iusto velit modi doloribus, nisi accusamus voluptatum facilis voluptates fuga ducimus reprehenderit.</p>
+                        <p>Dit jaar is het alweer 75 jaar geleden dat de gealieerden landen op de stranden van Nomrandie en om dat te vieren hebben wij nu een tentoonstelling opgzeten over de slagvelden van Normandie.</p>
                         <h2 id="scroll1" class="text-center">
                             Begin de invasie
                         </h2>
@@ -130,6 +130,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
+                    <h1>De invasie van Normandie in kaart gebracht</h1>
+                        <p>Dit jaar is het alweer 75 jaar geleden dat de gealieerden landen op de stranden van Nomrandie en om dat te vieren hebben wij nu een tentoonstelling opgzet over de slagvelden van Normandie.</p>
                         <div class="card contact-card">
                             <div class="card-image ci1"></div>
                             <div class="card-content">
@@ -168,6 +170,14 @@
                                 <h2 class="card-title">31 juli</h2>
                                 <hr>
                                 <p class="card-desc">In het westen hebben de gealieerden het duitse verzet bijna voledig vernietigd. Een snelle opruk naar het zuiden en oosten van het gebied zorgt voor een kans om de duitsers volledig uit Normandie te slaan</p>
+                            </div>
+                        </div>
+                        <div class="card contact-card">
+                            <div class="card-image ci6"></div>
+                            <div class="card-content">
+                                <h2 class="card-title">19 augustus</h2>
+                                <hr>
+                                <p class="card-desc">De duitsers zijn volledig de regio uit geslagen ALle overgebleven divisies proberen via de weg bij falaise te evacueren. De slag on Normandie is eindelijk voorbij. 6 dagen later zou parijs bevrijd worden.</p>
                             </div>
                         </div>
                     </div>

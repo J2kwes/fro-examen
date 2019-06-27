@@ -45,6 +45,7 @@
                     &:hover {
                         background-position: 0 -100%;
                         color: black;
+                        cursor: pointer;
                     }
                 }
                 #to-home {
@@ -139,7 +140,15 @@
         }
         .map-page-mob {
             display: block;
+            background-color: black;
+            color: white;
+            .row {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
             .card {
+                color: black;
                 border-radius: 0;
                 overflow: hidden;
                 text-align: center;
@@ -179,6 +188,9 @@
                 }
                 .ci5 {
                     background-image: url('../../images/map-jul-31.png');
+                }
+                .ci6 {
+                    background-image: url('../../images/map-19-aug.png');
                 }
             }
         }
