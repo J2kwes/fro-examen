@@ -1,6 +1,7 @@
 $(document).ready(function() {
-    var time = 10000;
+    var time = 9000;
     var timeout;
+    var timeout2;
     $('#scroll1').hover(
         function() {
             timeout = setTimeout(function() {
@@ -32,7 +33,19 @@ $(document).ready(function() {
                                 $('html, body').animate({
                                     scrollTop: $("#scroll-to5").offset().top
                                 }, 2000);
-
+                                setTimeout(function() {
+                                    $('#date').html('19 augustus')
+                                    $('#event').html('De duitsers zijn volledig de regio uit geslagen ALle overgebleven divisies proberen via de weg bij falaise te evacueren. De slag on Normandie is eindelijk voorbij. 6 dagen later zou parijs bevrijd worden.')
+                                    $('html, body').animate({
+                                        scrollTop: $("#scroll-to6").offset().top
+                                    }, 2000);
+                                    setTimeout(function() {
+                                        $('#to-home').css('display', 'block')
+                                        $('html, body').animate({
+                                            scrollTop: $("#scroll-to-top").offset().top
+                                        }, 5000);
+                                    }, time);
+                                }, time);
                             }, time);
                         }, time);
                     }, time);
@@ -43,6 +56,15 @@ $(document).ready(function() {
             clearTimeout(timeout);
         }
     );
+    $('#to-home').hover(
+        function() {
+            timeout2 = setTimeout(function() {
+                window.location.href = "/index.php";
+            }, 2000)
+        },
+        function() {
+            clearTimeout(timeout2);
+        });
 });
 
 

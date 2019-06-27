@@ -6,7 +6,7 @@
                 <a class="nav-link" href="index.php">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="map.php">Map</a>
+                <a class="nav-link" href="map.php">Normandie</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Contact</a>
