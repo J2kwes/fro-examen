@@ -7,9 +7,9 @@
     <div class="home-page">
         <div class="hero-wrapper">
             <div class="container c1">
-                <div class="row text-center  justify-content-center">
+                <div class="row text-center justify-content-center">
                     <div class="col-10">
-                        <h1>TIJDELIJK TENTOONSTELLING: <br> DE SLAG OM NORMANDIE</h1>
+                        <h1>TIJDELIJKE TENTOONSTELLING: <br> DE SLAG OM NORMANDIE</h1>
                     </div>
                 </div>
             </div>
@@ -17,108 +17,85 @@
         <div class="wrapper-two">
             <div class="container c2">
                 <div class="row">
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-image ci1"></div>
-                            <div class="card-content">
-                                <h2 class="card-title">Neem Contact Op</h2>
-                                <hr>
-                                <p class="card-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dolorem animi magnam dolores neque necessitatibus atque cupiditate alias corporis facilis? Illum, saepe doloribus! Et modi, debitis perferendis neque ipsa architecto.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
+                    <div class="col-lg-4">
+                        <div class="card tickets-card">
                             <div class="card-image ci2"></div>
                             <div class="card-content">
                                 <h2 class="card-title">Koop Kaarten</h2>
                                 <hr>
-                                <p class="card-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dolorem animi magnam dolores neque necessitatibus atque cupiditate alias corporis facilis? Illum, saepe doloribus! Et modi, debitis perferendis neque ipsa architecto.</p>
+                                <p class="card-desc">Kaarten kopen kan nu ook via onze site! Kom en ontdek de 2de wereldoorlog in ons museum.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="card">
+                    <div class="col-lg-4">
+                        <div class="card contact-card">
+                            <div class="card-image ci1"></div>
+                            <div class="card-content">
+                                <h2 class="card-title">Contact</h2>
+                                <hr>
+                                <p class="card-desc">Heeft u nog vragen voor ons? Geen probleem! Klik hier en stel uw vraag via ons contact formulier. </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="card normandy-card">
                             <div class="card-image ci3"></div>
                             <div class="card-content">
                                 <h2 class="card-title">Slag Om Normandie</h2>
                                 <hr>
-                                <p class="card-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dolorem animi magnam dolores neque necessitatibus atque cupiditate alias corporis facilis? Illum, saepe doloribus! Et modi, debitis perferendis neque ipsa architecto.</p>
+                                <p class="card-desc">Hier vind u meer informatie over onse tijdelijke tentoonsteling: De slag om Normandie.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <section class="Material-contact-section section-padding section-dark">
+        <div class="wrapper-about-us">
             <div class="container">
                 <div class="row">
-                    <!-- Section Titile -->
-                    <div class="col-md-12 wow animated fadeInLeft" data-wow-delay=".2s">
-                        <h1 class="section-title">Contact</h1>
+                    <div class="col-md-6">
+                        <h1>Over ons</h1>
+                        <br>
+                        <p class="about-us-desc">Wij zijn het Nationaal Oorlogs Museum. In ons museum vind je alles over de tweede wereldoorlog. Kom eens een kijkje nemen bij de voertuigen en wapens die gebruikt zijn tijdens s'werelds grootste conflict. Voor maar 22 euro ervaart u de geschiedenis als nooit tevoren!</p>
                     </div>
-                </div>
-                <div class="row">
-                    <!-- Section Titile -->
-                    <div class="col-md-6 mt-3 contact-widget-section2 wow animated fadeInLeft" data-wow-delay=".2s">
-                        <p>Heeft u nog onbeantwoorde vragen? Neem dan gerust contact met ons op!</p>
-
-                        <div class="find-widget">
-                            Company: <a href="https://hostriver.ro">HostRiver</a>
-                        </div>
-                        <div class="find-widget">
-                            Address: <a href="#">4435 Berkshire Circle Knoxville</a>
-                        </div>
-                        <div class="find-widget">
-                            Phone: <a href="#">+ 879-890-9767</a>
-                        </div>
-
-                        <div class="find-widget">
-                            Website: <a href="https://uny.ro">www.uny.ro</a>
-                        </div>
-                        <div class="find-widget">
-                            Program: <a href="#">Mon to Sat: 09:30 AM - 10.30 PM</a>
-                        </div>
-                    </div>
-                    <!-- contact form -->
-                    <div class="col-md-6 wow animated fadeInRight" data-wow-delay=".2s">
-                        <form class="shake" role="form" method="post" id="contactForm" name="contact-form" data-toggle="validator">
-                            <!-- Name -->
-                            <div class="form-group label-floating">
-                                <label class="control-label" for="name">Name</label>
-                                <input class="form-control" id="name" type="text" name="name" required data-error="Please enter your name">
-                                <div class="help-block with-errors"></div>
-                            </div>
-                            <!-- email -->
-                            <div class="form-group label-floating">
-                                <label class="control-label" for="email">Email</label>
-                                <input class="form-control" id="email" type="email" name="email" required data-error="Please enter your Email">
-                                <div class="help-block with-errors"></div>
-                            </div>
-                            <!-- Subject -->
-                            <div class="form-group label-floating">
-                                <label class="control-label">Subject</label>
-                                <input class="form-control" id="msg_subject" type="text" name="subject" required data-error="Please enter your message subject">
-                                <div class="help-block with-errors"></div>
-                            </div>
-                            <!-- Message -->
-                            <div class="form-group label-floating">
-                                <label for="message" class="control-label">Message</label>
-                                <textarea class="form-control" rows="3" id="message" name="message" required data-error="Write your message"></textarea>
-                                <div class="help-block with-errors"></div>
-                            </div>
-                            <!-- Form Submit -->
-                            <div class="form-submit mt-5">
-                                <button class="btn btn-common" type="submit" id="form-submit"><i class="material-icons mdi mdi-message-outline"></i> Send Message</button>
-                                <div id="msgSubmit" class="h3 text-center hidden"></div>
-                                <div class="clearfix"></div>
-                            </div>
-                        </form>
+                    <div class="col-md-6 col-grid">
+                        <img src="assets/images/overloon.jpg" alt="">
+                        <img src="assets/images/overloon2.jpg" alt="">
+                        <img src="assets/images/overloon3.jpg" alt="">
+                        <img src="assets/images/overloon4.jpg" alt="">
+                        <img src="assets/images/overloon5.jpg" alt="">
+                        <img src="assets/images/overloon6.jpg" alt="">
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+        <div class="wrapper-contact">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-3">
+                        <h1>Contact</h1>
+                        <br>
+                        <h4>Locatie: Contactweg 36 Amsterdam, Noord-Holland</h4>
+                        <h4>E-mail: info@nom.nl</h4>
+                        <h4>Tel: 06123456789</h4>
+                    </div>
+                    <div class="col-md-6 ">
+                        <label for="name">Naam</label>
+                        <input type="text" id="name" name="name" required>
+                        <label for="email">E-mail</label>
+                        <input type="text" id="email" name="email" required>
+                        <label for="tel">Telefoonnummer</label>
+                        <input type="text" id="tel" name="tel" required>
+                        <label for="message">Type hier uw vraag</label>
+                        <input type="textarea" rows="4" cols="100" id="message" name="message" required>
+                        <input type="submit" value="verstuur">
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    <?php include 'page-partials/footer.php'; ?>
 </body>
 
 </html>

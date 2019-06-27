@@ -1,5 +1,5 @@
 .navbar {
-    background-color: white;
+    background-color: #F7F7F7;
     .nav-link,
     .navbar-brand {
         cursor: pointer;
@@ -9,11 +9,37 @@
     }
     .nav-link {
         margin-right: 1em !important;
+        color: #000;
+        font-size: 20px;
     }
     .nav-link:hover {
         color: #000;
     }
-    .navbar-collapse {
+    #main-navigation {
         justify-content: flex-end;
+    }
+}
+
+.mob-menu {
+    display: none;
+    padding: 20px;
+    background-color: #F7F7F7;
+}
+
+.opened {
+    display: none;
+}
+
+.closebtn {
+    display: none;
+}
+
+@media only screen and(max-width: 700px) {
+    .navbar {
+        margin-top: -20vh;
+        background-color: white;
+    }
+    .mob-menu {
+        display: block;
     }
 }

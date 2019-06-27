@@ -1,6 +1,6 @@
 <?php include 'page-partials/head.php'; ?>
 
-<body>
+<body class="map-body">
     <div id="scrolltop"></div>
     <?php include 'page-partials/navbar.php'; ?>
 
@@ -30,12 +30,16 @@
         <div class="wrapper-one" id="scroll-to1">
             <div class="container-fluid c1-1">
                 <div class="row description">
-                    <div class="col-md-12 text-center">
-                        <h1 id="date">6 juni </h1>
+                    <div class="col-12 text-center">
+                        <div class="card">
+                            <h1 id="date">6 juni </h1>
+                            <hr>
+                            <h4 id="event">Operatie overlord begint. Een enorme invasie vloot van amerikanen, britten, canadezen en fransen landen op de stranden van Normadie en openen succesvol een tweede front op Nazi-Duistland</h4>
+
+                        </div>
+
                     </div>
-                    <div class="col-md-12 text-center">
-                        <h2 id="event">operatie overlord begint</h2>
-                    </div>
+
                 </div>
             </div>
             <div class="container-fluid c1-2 map">

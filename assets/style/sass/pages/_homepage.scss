@@ -1,4 +1,5 @@
 .home-page {
+    background-color: #f7f7f7;
     .hero-wrapper {
         background-image: url('../../images/hero-home-bg.jpg');
         background-size: cover;
@@ -23,17 +24,29 @@
         }
     }
     .wrapper-two {
-        height: 80vh;
+        height: auto;
         .c2 {
             .row {
                 .card {
                     border-radius: 10px;
                     overflow: hidden;
                     text-align: center;
-                    margin-top: -100px;
+                    margin-top: -150px;
                     -webkit-box-shadow: 0px 11px 21px -2px rgba(0, 0, 0, 0.3);
                     -moz-box-shadow: 0px 11px 21px -2px rgba(0, 0, 0, 0.3);
                     box-shadow: 0px 11px 21px -2px rgba(0, 0, 0, 0.3);
+                    &:hover {
+                        .card-content {
+                            transform: scale(1.05);
+                            transition: all 0.5s;
+                        }
+                    }
+                    hr {
+                        border-top: 2px solid red;
+                        width: 50%;
+                        margin-left: 25% !important;
+                        margin-right: 25% !important;
+                    }
                     .card-image {
                         height: 200px;
                         background-size: cover;
@@ -56,9 +69,44 @@
                         -webkit-box-shadow: 1px -5px 60px 1px rgba(0, 0, 0, 0.3);
                         -moz-box-shadow: 1px -5px 60px 1px rgba(0, 0, 0, 0.3);
                         box-shadow: 1px -5px 60px 1px rgba(0, 0, 0, 0.3);
+                        transition: all 0.5s;
                     }
                 }
             }
+        }
+    }
+    .wrapper-about-us {
+        padding: 200px 0;
+        .about-us-desc {
+            font-size: 25px;
+        }
+        .col-grid {
+            display: grid;
+            border-radius: 15px;
+            overflow: scroll;
+            height: 400px;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    @media only screen and(max-width: 1100px) {
+        .hero-wrapper {
+            background-attachment: initial;
+            background-position: 45%;
+            h1 {
+                font-size: 40px !important;
+            }
+        }
+        .card {
+            margin-top: 50px !important;
+        }
+        .wrapper-about-us {
+            padding-top: 100px !important;
+            padding-bottom: 100px;
+        }
+        .col-grid {
+            height: 500px !important;
         }
     }
 }
