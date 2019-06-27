@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    var time = 15000;
+    var time = 10000;
     var timeout;
     $('#scroll1').hover(
         function() {
