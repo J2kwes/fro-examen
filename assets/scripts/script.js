@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    var time = 9000;
+    var time = 8000;
     var timeout;
     var timeout2;
     $('#scroll1').hover(
@@ -80,6 +80,10 @@ $('.tickets-card').click(function() {
 
 $('.normandy-card').click(function() {
     window.location.href = "map.php";
+});
+
+$('button').click(function() {
+    alert("Kaart is aan winkelmand toegevoegd!");
 });
 
 

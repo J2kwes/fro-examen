@@ -345,56 +345,79 @@
   -ms-transform: translate(0px, 0px);
   transform: translate3d(0px, 0px, 0px); }
 
-.tickets-page .wrapper-hero {
-  padding-top: 10vh;
-  min-height: 100vh;
-  background-image: url("../../images/ticketsbg.jpg");
-  background-size: cover;
-  background-repeat: no-repeat; }
-  .tickets-page .wrapper-hero .row {
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-    .tickets-page .wrapper-hero .row .col-md-4 {
-      height: 400px; }
-  .tickets-page .wrapper-hero .card {
-    border-radius: 10px;
-    overflow: hidden;
-    height: 400px;
-    margin-top: 0;
-    text-align: center;
-    -webkit-box-shadow: 0px 11px 21px -2px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: 0px 11px 21px -2px rgba(0, 0, 0, 0.3);
-    box-shadow: 0px 11px 21px -2px rgba(0, 0, 0, 0.3); }
-    .tickets-page .wrapper-hero .card:hover {
-      cursor: pointer; }
-      .tickets-page .wrapper-hero .card:hover .card-content {
-        transform: scale(1.05);
+.tickets-page {
+  max-width: 100vw;
+  overflow-x: hidden; }
+  .tickets-page .hero-wrapper {
+    padding-top: 100px;
+    height: 80vh;
+    background-image: url(" ../../images/ticketsbg.jpg");
+    background-size: cover; }
+    .tickets-page .hero-wrapper .c1 {
+      position: relative;
+      top: 40%;
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%); }
+      .tickets-page .hero-wrapper .c1 .row {
+        color: white;
+        text-shadow: 2px 2px 2px #000; }
+        .tickets-page .hero-wrapper .c1 .row h1 {
+          font-size: 60px;
+          font-weight: bold; }
+  .tickets-page .wrapper-one {
+    padding-top: 10vh; }
+    .tickets-page .wrapper-one .row {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .tickets-page .wrapper-one .card {
+      border-radius: 10px;
+      overflow: hidden;
+      height: 400px;
+      margin-bottom: 100px;
+      text-align: center;
+      -webkit-box-shadow: 0px 11px 21px -2px rgba(0, 0, 0, 0.3);
+      -moz-box-shadow: 0px 11px 21px -2px rgba(0, 0, 0, 0.3);
+      box-shadow: 0px 11px 21px -2px rgba(0, 0, 0, 0.3); }
+      .tickets-page .wrapper-one .card:hover {
+        cursor: pointer; }
+        .tickets-page .wrapper-one .card:hover .card-content {
+          transform: scale(1.05);
+          transition: all 0.5s; }
+      .tickets-page .wrapper-one .card hr {
+        border-top: 2px solid red;
+        width: 50%;
+        margin-left: 25% !important;
+        margin-right: 25% !important; }
+      .tickets-page .wrapper-one .card .card-image {
+        height: 200px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center; }
+      .tickets-page .wrapper-one .card .ci1,
+      .tickets-page .wrapper-one .card .ci2,
+      .tickets-page .wrapper-one .card .ci3 {
+        background-image: url("../../images/ticket.jpg");
+        background-size: contain !important; }
+      .tickets-page .wrapper-one .card .card-content {
+        padding: 15px;
+        -webkit-box-shadow: 1px -5px 60px 1px rgba(0, 0, 0, 0.3);
+        -moz-box-shadow: 1px -5px 60px 1px rgba(0, 0, 0, 0.3);
+        box-shadow: 1px -5px 60px 1px rgba(0, 0, 0, 0.3);
         transition: all 0.5s; }
-    .tickets-page .wrapper-hero .card hr {
-      border-top: 2px solid red;
-      width: 50%;
-      margin-left: 25% !important;
-      margin-right: 25% !important; }
-    .tickets-page .wrapper-hero .card .card-image {
-      height: 200px;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center; }
-    .tickets-page .wrapper-hero .card .ci1,
-    .tickets-page .wrapper-hero .card .ci2,
-    .tickets-page .wrapper-hero .card .ci3 {
-      background-image: url("../../images/ticket.jpg");
-      background-size: contain !important; }
-    .tickets-page .wrapper-hero .card .card-content {
-      padding: 15px;
-      -webkit-box-shadow: 1px -5px 60px 1px rgba(0, 0, 0, 0.3);
-      -moz-box-shadow: 1px -5px 60px 1px rgba(0, 0, 0, 0.3);
-      box-shadow: 1px -5px 60px 1px rgba(0, 0, 0, 0.3);
-      transition: all 0.5s; }
-    .tickets-page .wrapper-hero .card button {
-      border: 2px solid black;
-      background-color: white; }
+      .tickets-page .wrapper-one .card button {
+        border: 2px solid black;
+        background-color: white; }
+        .tickets-page .wrapper-one .card button:hover {
+          background-color: lightgrey;
+          transition: all .3s; }
+  @media only screen and (max-width: 600px) {
+    .tickets-page .card {
+      border-radius: 0 !important;
+      margin-top: 0 !important;
+      margin-bottom: 50px !important; }
+      .tickets-page .card.card3 {
+        margin-bottom: 50px; } }
 
 body {
   padding: 0;

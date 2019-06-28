@@ -1,3 +1,10 @@
+<!-- 
+    Run command:
+    browser-sync start --proxy "fro-examen.test" --files "*", "assets/style/css/*"
+    to start browsersync 
+-->
+
+
 <?php include 'page-partials/head.php'; ?>
 
 <body>
