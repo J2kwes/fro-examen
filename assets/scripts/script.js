@@ -160,4 +160,10 @@ $('.closebtn').click(function() {
     $(this).css('display', 'none');
     $('.mob-menu-toggle').removeClass('opened');
     $('.navbar').animate({ 'marginTop': '-20vh' }, 400);
-})
+});
+
+$('.slider').slick({
+    autoplay: true,
+    autoplaySpeed: 4000,
+    dots: true
+});

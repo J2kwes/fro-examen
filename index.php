@@ -2,6 +2,8 @@
     Run command:
     browser-sync start --proxy "fro-examen.test" --files "*", "assets/style/css/*"
     to start browsersync 
+
+    sass --watch assets\style\sass\main.scss:assets/style/css/main.css
 -->
 
 
@@ -66,13 +68,25 @@
                         <br>
                         <p class="about-us-desc">Wij zijn het Nationaal Oorlogs Museum. In ons museum vind je alles over de tweede wereldoorlog. Kom eens een kijkje nemen bij de voertuigen en wapens die gebruikt zijn tijdens s'werelds grootste conflict. Voor maar 22 euro ervaart u de geschiedenis als nooit tevoren!</p>
                     </div>
-                    <div class="col-md-6 col-grid">
-                        <img src="assets/images/overloon.jpg" alt="">
-                        <img src="assets/images/overloon2.jpg" alt="">
-                        <img src="assets/images/overloon3.jpg" alt="">
-                        <img src="assets/images/overloon4.jpg" alt="">
-                        <img src="assets/images/overloon5.jpg" alt="">
-                        <img src="assets/images/overloon6.jpg" alt="">
+                    <div class="col-12 slider">
+                        <div class="img-holder">
+                            <img src="assets/images/overloon4.jpg" alt="">
+                        </div>
+                        <div class="img-holder">
+                            <img src="assets/images/overloon.jpg" alt="">
+                        </div>
+                        <div class="img-holder">
+                            <img src="assets/images/overloon2.jpg" alt="">
+                        </div>
+                        <div class="img-holder">
+                            <img src="assets/images/overloon3.jpg" alt="">
+                        </div>
+                        <div class="img-holder">
+                            <img src="assets/images/overloon5.jpg" alt="">
+                        </div>
+                        <div class="img-holder">
+                            <img src="assets/images/overloon6.jpg" alt="">
+                        </div>
                     </div>
                 </div>
             </div>

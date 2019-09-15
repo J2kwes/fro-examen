@@ -9,7 +9,7 @@
                 <a class="nav-link" href="map.php">Normandie</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="tickets.php">Kaarten</a>
+                <a class="nav-link" href="tickets.php">Tickets</a>
             </li>
         </ul>
     </div>
