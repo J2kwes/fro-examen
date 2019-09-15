@@ -1,0 +1,21 @@
+Door wie is de site getest:
+Ik heb mijn site laten testen door 3 mensen uit 2 verschillende leeftijdsgroepen.
+
+Welk product is er getest:
+De site is getest op versie 7 (https://github.com/J2kwes/fro-examen/tree/12d51aff8e4bd331d20e2b7b29649ff858c6d30a).
+
+Manier van testen:
+Ik heb de testers verzocht de site op alle mogelijke manieren te bekijken: laptops, desktops, telefoons en verschillende browsers.
+
+Resultaat van de testen:
+-De testers viel het op dat op een aantal paginas de heros te groot waren op kleine schermen dit nam onodig ruimte in beslag.
+
+-Op de homepage was er een foto galerij die verticaal scrollbaar was. Dit vonden de testers niet gebruksvriendelijk en werd in 1 geval zelfs niet een gezien.
+
+-De map pagina verspringt te vroeg naar mobile display.
+
+Oplossingen voor geconcludeerde problemen:
+-De heros zijn op mobiele aparaten van 80vh naar 40vh gezet in versie 8 (https://github.com/J2kwes/fro-examen).
+
+-De foto galerij is vervangen door een slider met indicatie dots om zo een gebruiksvriendelijkere homepage te creëren in versie 8 (https://github.com/J2kwes/fro-examen).
+
