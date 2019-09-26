@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Wij zijn het Nationaal Oorlogs Museum. In ons museum vind je alles over de tweede wereldoorlog. Kom eens een kijkje nemen bij de voertuigen en wapens die gebruikt zijn tijdens s'werelds grootste conflict.">
     <!--Bootstrap CSS CDN-->
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/style/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/style/slick/slick-theme.css"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/style/css/main.css">
     <title>Nationaal Oorlogs Museum</title>

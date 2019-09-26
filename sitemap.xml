@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<!-- gemaakt met www.xml-sitemaps.nl -->
+<!-- aangeboden door www.metatags.nl -->
+
+<url>
+    <loc>http://24442.hosts1.ma-cloud.nl/fro-examen/</loc>
+
+    <lastmod>2019-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>  
+<url>
+    <loc>http://24442.hosts1.ma-cloud.nl/fro-examen/index.php</loc>
+
+    <lastmod>2019-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>  
+<url>
+    <loc>http://24442.hosts1.ma-cloud.nl/fro-examen/map.php</loc>
+
+    <lastmod>2019-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>  
+<url>
+    <loc>http://24442.hosts1.ma-cloud.nl/fro-examen/tickets.php</loc>
+
+    <lastmod>2019-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>  
+<url>
+    <loc>http://24442.hosts1.ma-cloud.nl/index.php</loc>
+
+    <lastmod>2019-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>  
+<url>
+    <loc>http://24442.hosts1.ma-cloud.nl/</loc>
+
+    <lastmod>2019-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>  
+<url>
+    <loc>http://24442.hosts1.ma-cloud.nl/map.php</loc>
+
+    <lastmod>2019-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>  
+<url>
+    <loc>http://24442.hosts1.ma-cloud.nl/tickets.php</loc>
+
+    <lastmod>2019-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>  
+</urlset>

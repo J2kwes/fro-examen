@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: 
+
+Sitemap: http://24442.hosts1.ma-cloud.nl/fro-examen/sitemap.xml
