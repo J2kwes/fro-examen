@@ -272,6 +272,7 @@ label {
   position: relative;
   overflow: hidden;
   color: white;
+  z-index: 10000;
 }
 .map-page .hero-wrapper .layer2 {
   background-image: url("../../images/bob-bg.png");
@@ -304,6 +305,10 @@ label {
 }
 .map-page .hero-wrapper .info #to-home {
   display: none;
+}
+.map-page #to-home-two {
+  position: fixed;
+  bottom: 0;
 }
 .map-page .wrapper-one .c1-1 {
   position: -webkit-sticky;

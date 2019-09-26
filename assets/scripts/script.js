@@ -67,7 +67,6 @@ $(document).ready(function() {
         });
 });
 
-
 $('.contact-card').click(function() {
     $('html, body').animate({
         scrollTop: $(".wrapper-contact").offset().top

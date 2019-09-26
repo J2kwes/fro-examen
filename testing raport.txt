@@ -12,10 +12,12 @@ Resultaat van de testen:
 
 -Op de homepage was er een foto galerij die verticaal scrollbaar was. Dit vonden de testers niet gebruksvriendelijk en werd in 1 geval zelfs niet een gezien.
 
--De map pagina verspringt te vroeg naar mobile display.
+-op de normadie pagina is er geen knop om de slideshow te stoppen dit is frustrerend.
 
 Oplossingen voor geconcludeerde problemen:
--De heros zijn op mobiele aparaten van 80vh naar 40vh gezet in versie 8 (https://github.com/J2kwes/fro-examen).
+-De heros zijn op mobiele aparaten van 80vh naar 40vh gezet in versie 8 (https://github.com/J2kwes/fro-examen/tree/444ff52a9d99e4b79e4c7fe762c41938c1e93a02).
 
--De foto galerij is vervangen door een slider met indicatie dots om zo een gebruiksvriendelijkere homepage te creëren in versie 8 (https://github.com/J2kwes/fro-examen).
+-De foto galerij is vervangen door een slider met indicatie dots om zo een gebruiksvriendelijkere homepage te creëren in versie 8 (https://github.com/J2kwes/fro-examen/tree/444ff52a9d99e4b79e4c7fe762c41938c1e93a02).
+
+-Terug naar home knop toegevoegd aan de normandie pagina om gemakkelijk de slideshow te kunnen beëindigen in versie 9.
 

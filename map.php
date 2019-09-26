@@ -15,7 +15,7 @@
                         <h2 id="scroll1" class="text-center">
                             Begin de invasie
                         </h2>
-                       <h2 id="to-home" class="text-center">
+                        <h2 id="to-home" class="text-center">
                             Terug naar Home
                         </h2>
                     </div>
@@ -123,6 +123,9 @@
                 </div>
             </div>
         </div>
+        <h2 id="to-home-two" class="text-center">
+           <a href="/">Terug naar Home </a>
+        </h2>
     </div>
 
     <div class="map-page-mob">
@@ -130,7 +133,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                    <h1>De invasie van Normandie in kaart gebracht</h1>
+                        <h1>De invasie van Normandie in kaart gebracht</h1>
                         <p>Dit jaar is het alweer 75 jaar geleden dat de gealieerden landen op de stranden van Nomrandie en om dat te vieren hebben wij nu een tentoonstelling opgzet over de slagvelden van Normandie.</p>
                         <div class="card contact-card">
                             <div class="card-image ci1"></div>
