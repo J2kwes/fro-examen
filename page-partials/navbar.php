@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-md">
-    <div class="navbar-brand" > <h5>NATIONAAL OORLOGS MUSEUM</h5></div>
+    <a href="/"><div class="navbar-brand" > <h5>NATIONAAL OORLOGS MUSEUM</h5></div></a>
     <div id="main-navigation">
         <ul class="navbar-nav">
             <li class="nav-item">

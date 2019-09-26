@@ -555,4 +555,11 @@ body {
   display: none;
 }
 
+a {
+  color: inherit;
+}
+a:hover {
+  color: grey;
+}
+
 /*# sourceMappingURL=main.css.map */

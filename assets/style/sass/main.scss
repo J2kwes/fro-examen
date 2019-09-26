@@ -15,3 +15,9 @@
     .hidden {
         display: none;
     }
+    a {
+        color: inherit;
+        &:hover {
+            color: grey;
+        }
+    }
