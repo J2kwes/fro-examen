@@ -1,24 +1,36 @@
-    // import partial styles
-    @import 'partials/__navbar.scss';
-    @import 'partials/__contactform.scss';
-    // impoprt page styles
-    @import 'pages/_homepage.scss';
-    @import 'pages/_map.scss';
-    @import 'pages/__tickets.scss';
-    @import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
-    body {
-        padding: 0;
-        margin: 0;
-        font-family: 'Staatliches', cursive;
+// import partial styles
+@import 'partials/__navbar.scss';
+@import 'partials/__contactform.scss';
+// impoprt page styles
+@import 'pages/_homepage.scss';
+@import 'pages/_map.scss';
+@import 'pages/__tickets.scss';
+@import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Staatliches', cursive;
+}
+
+.hidden {
+    display: none;
+}
+
+a {
+    color: black;
+    &:hover {
+        color: grey;
     }
-    
-    .hidden {
-        display: none;
-    }
-    
-    a {
-        color: black;
-        &:hover {
-            color: grey;
+}
+
+//rsponsive font-sizes
+@media only screen and(max-width: 768px) {
+    .hero-wrapper {
+        h1 {
+            font-size: 40px !important;
         }
     }
+    p {
+        font-size: 18px !important;
+    }
+}
