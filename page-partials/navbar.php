@@ -1,15 +1,15 @@
 <nav class="navbar navbar-expand-md">
-    <a href="/"><div class="navbar-brand" > <h5>NATIONAAL OORLOGS MUSEUM</h5></div></a>
+    <a href="http://24442.hosts1.ma-cloud.nl/fro-examen/"><div class="navbar-brand" > <h5>NATIONAAL OORLOGS MUSEUM</h5></div></a>
     <div id="main-navigation">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="index.php">Home</a>
+                <a class="nav-link home" href="http://24442.hosts1.ma-cloud.nl/fro-examen/index.php">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="map.php">Normandie</a>
+                <a class="nav-link map" href="map.php">Normandie</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="tickets.php">Tickets</a>
+                <a class="nav-link tickets" href="tickets.php">Tickets</a>
             </li>
         </ul>
     </div>

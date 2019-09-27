@@ -49,6 +49,24 @@
     cursor: pointer;
 }
 
+.home-body {
+    .home {
+        border-bottom: 1px solid red;
+    }
+}
+
+.map-body {
+    .map {
+        border-bottom: 1px solid red;
+    }
+}
+
+.tickets-body {
+    .tickets {
+        border-bottom: 1px solid red;
+    }
+}
+
 @media only screen and(max-width: 700px) {
     .navbar {
         margin-top: -20vh;

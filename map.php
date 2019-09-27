@@ -124,7 +124,7 @@
             </div>
         </div>
         <h2 id="to-home-two" class="text-center">
-           <a href="/">Terug naar Home </a>
+           <a href="http://24442.hosts1.ma-cloud.nl/fro-examen/">Terug naar Home </a>
         </h2>
     </div>
 

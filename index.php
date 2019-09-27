@@ -9,7 +9,7 @@
 
 <?php include 'page-partials/head.php'; ?>
 
-<body>
+<body class="home-body">
     <div id="scrolltop"></div>
     <?php include 'page-partials/navbar.php'; ?>
 

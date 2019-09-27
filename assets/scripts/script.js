@@ -59,7 +59,7 @@ $(document).ready(function() {
     $('#to-home').hover(
         function() {
             timeout2 = setTimeout(function() {
-                window.location.href = "/index.php";
+                window.location.href = "http://24442.hosts1.ma-cloud.nl/fro-examen/index.php";
             }, 2000)
         },
         function() {

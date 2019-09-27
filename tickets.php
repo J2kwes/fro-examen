@@ -1,6 +1,6 @@
 <?php include 'page-partials/head.php'; ?>
 
-<body>
+<body class="tickets-body">
     <div id="scrolltop"></div>
     <?php include 'page-partials/navbar.php'; ?>
 
