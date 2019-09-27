@@ -130,6 +130,7 @@
         color: white;
         text-shadow: 2px 2px 2px #000; }
         .home-page .hero-wrapper .c1 .row h1 {
+          font-size: 60PX;
           font-weight: bold; }
   .home-page .wrapper-two {
     height: auto; }
